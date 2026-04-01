@@ -1,0 +1,102 @@
+/* Custom styles for modern look */
+
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15) !important;
+}
+
+.hover-img {
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-card:hover .hover-img {
+  transform: scale(1.08);
+}
+
+.hover-overlay {
+  transition: opacity 0.3s ease;
+}
+
+.hover-card:hover .hover-overlay {
+  opacity: 1 !important;
+}
+
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-card:hover .hover-scale {
+  transform: scale(1) !important;
+}
+
+.hover-lift {
+  transition: transform 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+.hover-text-primary {
+  transition: color 0.3s ease;
+}
+
+.hover-text-primary:hover {
+  color: #0d6efd !important;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Enhanced image styling */
+.card-img-container img {
+  filter: brightness(1);
+  transition: filter 0.3s ease;
+}
+
+.hover-card:hover .card-img-container img {
+  filter: brightness(1.05) contrast(1.05);
+}
+
+/* Image loading animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+
+.image-loading {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200px 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Responsive image improvements */
+@media (max-width: 768px) {
+  .card-img-container {
+    height: 220px !important;
+  }
+
+  .hover-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .hover-card:hover .hover-img {
+    transform: scale(1.03);
+  }
+}
+
+/* Navbar active link styling */
+.navbar-nav .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
