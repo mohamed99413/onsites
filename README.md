@@ -1,33 +1,40 @@
 # Web Development Projects
 
-A collection of web development projects built while practicing frontend and backend development.
+A collection of practical web development projects built while developing full-stack skills.
 
-The repository contains projects using **HTML, CSS, JavaScript, React, PHP, MySQL, and Laravel**, covering both UI development and server-side application logic.
+The repository includes projects across **frontend development, backend development, APIs, databases, authentication, and MVC applications** using JavaScript, React, PHP, MySQL, PDO, and Laravel.
 
 ## 📂 Projects
 
 | Project | Focus | Main Technologies |
 | --- | --- | --- |
-| Discover Egypt | Frontend / UI | HTML, Bootstrap, JavaScript |
-| PHP Blog | Backend | PHP |
-| Restaurant Management | Full-Stack / Backend | Laravel, PHP |
-| Product Catalog | Frontend | React, Vite, Axios |
-| School Football Competition Manager | Backend | PHP, MySQL, PDO |
+| **Discover Egypt** | Frontend / UI | HTML, CSS, Bootstrap, JavaScript |
+| **Vanilla PHP Blog** | PHP Backend | PHP |
+| **Restaurant Management** | Full-Stack / Backend | Laravel, PHP, Blade |
+| **Product Catalog** | Frontend | React, Vite, Axios |
+| **School Football Competition Manager** | Backend / Database | PHP, MySQL, PDO |
 
-## 🎯 Purpose
+## 🧩 What These Projects Demonstrate
 
-These projects represent practical development exercises and progressively demonstrate skills in:
-
-- Responsive frontend development
-- React component architecture
-- Routing and API integration
+- Responsive web interfaces
+- Reusable React components
+- Client-side routing
+- API integration
 - PHP backend development
 - Laravel MVC architecture
-- Authentication and validation
-- MySQL and PDO
-- CRUD and database-driven applications
+- Authentication and application logic
+- MySQL database integration
+- PDO and prepared queries
+- CRUD-based systems
+- Form validation
+- Practical problem solving
+
+## 📌 Repository Structure
+
+These projects are currently kept together as a development-project collection. Individual projects are being organized and documented so they can later be presented as standalone portfolio repositories.
 
 ## 👨‍💻 Developer
 
-**Mohamed Hassan** — Full-Stack Web Developer
+**Mohamed Hassan**  
+Full-Stack Web Developer — React, JavaScript, PHP, Laravel, MySQL
 
